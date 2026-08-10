@@ -16,17 +16,17 @@ public class Logical {
 
 
         // Bitwise operators.
-        int a = 2; // 00000000 00000000 00000000 00000010
-        int b = 3; // 11
+        // int a = 2; // 00000000 00000000 00000000 00000010
+        // int b = 3; // 11
                   
-        int c = a & b; // 10 --> 2
-        int d = a | b; // 11 --> 3
-        int e = a ^ b; // 01 --> 1
-        int f = ~a; //  11111111 11111111 11111111 11111101 == -3
+        // int c = a & b; // 10 --> 2
+        // int d = a | b; // 11 --> 3
+        // int e = a ^ b; // 01 --> 1
+        // int f = ~a; //  11111111 11111111 11111111 11111101 == -3
 
         //System.out.println(c + " , " + d + " , " + e + " , " + f);
 
-        byte g = 1;
+        // byte g = 1;
         //int h = (g << 8);  // 00000001 --> 1 00000000 --> 0
 
         int h = 1;
@@ -34,8 +34,8 @@ public class Logical {
 
         System.out.println(h); // 2
 
-        byte i = 127; // 01000000 --> 00000000
-        byte j = (byte) (i >> 8);
+        // byte i = 127; // 01000000 --> 00000000
+        // byte j = (byte) (i >> 8);
 
         // >>>
 
