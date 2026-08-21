@@ -1,5 +1,4 @@
 package Lecture20;
-import java.io.*;
 
 import java.io.BufferedReader;
 import java.io.IOException;
